@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasan Alp İnşaat | Deniz Kumunun Gücü</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #f1f8e9);
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #00838f, #00acc1);
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3.2em;
+      animation: fadeInDown 1s ease-out;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 20px;
+      opacity: 0.9;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    .section h2 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #00796b;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.4s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .quote {
+      background-color: #ffecb3;
+      padding: 30px;
+      border-left: 6px solid #ffa000;
+      margin: 40px 0;
+      font-style: italic;
+    }
+    .testimonials ul {
+      list-style: none;
+    }
+    .testimonials li {
+      background: #ffffff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+    .testimonials li:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #263238;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    @keyframes fadeInDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>“Beton dayanmazsa ne olur? Hayat da zaten geçici.” – Hasan Alp</h1>
+    <p>Hasan Alp İnşaat – Tuzlu ama duyarlı yapıların öncüsü</p>
+  </header>
+
+  <section class="section">
+    <h2>🏖 Şile'den Şantiyeye: Plajların Kumuyla Yapılar</h2>
+    <p>
+      Şile’nin en sevilen plajlarından getirilen deniz kumları artık duvarlarınızda hayat buluyor. Ağlayankaya’nın gözyaşı gibi tuzlu kumları, Uzun Kum’un yumuşaklığı ve Ayazma’nın soğuk gerçekliğiyle karışan çimentolarla evlerinizi süslüyoruz.
+    </p>
+    <div class="gallery">
+      <img src="/mnt/data/IMG_4752.HEIC" alt="Deniz Kumu 1">
+      <img src="/mnt/data/IMG_5176.HEIC" alt="Deniz Kumu 2">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/%C5%9Eile_A%C4%9Flayankaya.jpg/800px-%C5%9Eile_A%C4%9Flayankaya.jpg" alt="Ağlayankaya Plajı">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ayazma_Plaj%C4%B1.jpg/800px-Ayazma_Plaj%C4%B1.jpg" alt="Ayazma Plajı">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Uzunkum_Plaj%C4%B1.jpg/800px-Uzunkum_Plaj%C4%B1.jpg" alt="Uzun Kum Plajı">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🔬 Teknik Gerçekler</h2>
+    <ul>
+      <li>Deniz kumu yüksek tuz içeriği nedeniyle donatıyı paslandırır.</li>
+      <li>Çimento ile olan bağ zayıftır → düşük dayanıklılık.</li>
+      <li>Betonarme sistemin ömrü ciddi şekilde kısalır.</li>
+      <li>Deprem anında çökme riski çok daha fazladır.</li>
+      <li>TS 706 EN 12620 standardına aykırıdır.</li>
+    </ul>
+    <div class="quote">
+      “Deprem değil, deniz kumu öldürür.” – Gerçek Mühendislik Sözü
+    </div>
+  </section>
+
+  <section class="section testimonials">
+    <h2>💀 Gerçek Müşteri Yorumları</h2>
+    <ul>
+      <li><strong>Selimcan Ö.:</strong> "Depremde bina çöktü ama tuz kokusu her yere yayıldı. Bir nevi denizle gömüldük. Şairane bir yıkımdı."
+      </li>
+      <li><strong>Uğur Ö. (Öldü):</strong> "Bu yorumu ailesi adına yazıyoruz. Enkazın altından çıkarılan Uğur’un ellerinde hâlâ deniz kabuğu vardı. Güzel öldü..."
+      </li>
+      <li><strong>Atilla K. (OE):</strong> "Ofisteydim, bina yok olmuş. Eve geldiğimde arsada martılar uçuyordu. Şaşırmadım, Hasan Alp yapmıştı."
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hasan Alp İnşaat | Gerçeklik tuzla başlar.</p>
+  </footer>
+
+</body>
+</html>
